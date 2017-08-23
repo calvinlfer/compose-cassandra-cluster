@@ -11,7 +11,6 @@ In order to bring up the cluster:
 
 In order to clean up the cluster, use `docker-compose down`
 
-
 ## Notes ##
 You need to make sure that the Docker daemon has enough of resources
 otherwise you will encounter exit code 137 (Out of Memory Killer) on
