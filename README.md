@@ -4,6 +4,14 @@ It only exposes important Cassandra ports on the seed node to the host
 machine. Internally, all of the nodes will be a part of the same Docker
 network and will form a cluster using that Docker network.
 
+## Instructions ##
+In order to bring up the cluster:
+- Use `docker-compose up` to see the logs of all the containers
+- Use `docker-compose up -d` if you want it to run in the foreground
+
+In order to clean up the cluster, use `docker-compose down`
+
+
 ## Notes ##
 You need to make sure that the Docker daemon has enough of resources
 otherwise you will encounter exit code 137 (Out of Memory Killer) on
