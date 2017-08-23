@@ -28,3 +28,10 @@ achieved, you will see an error like this:
 ERROR [main] 2017-08-22 23:19:11,055 CassandraDaemon.java:706 - Exception encountered during startup
 java.lang.UnsupportedOperationException: Other bootstrapping/leaving/moving nodes detected, cannot bootstrap while cassandra.consistent.rangemovement is true
 ```
+
+This [article](http://thelastpickle.com/blog/2017/05/23/auto-bootstrapping-part1.html)
+discusses the implications of turning `cassandra.consistent.rangemovement`
+off.
+
+### Credits ###
+- [The Last Pickle](http://thelastpickle.com/blog)
